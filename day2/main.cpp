@@ -32,22 +32,17 @@ void startCalc(){
     if (opt == 1)
     {
         penjumlahan(a,b);
-        startCalc();
     } else if (opt == 2)
     {
         pengurangan(a,b);
-        startCalc();
     } else if (opt == 3)
     {
         perkalian(a,b);
-        startCalc();
     } else if (opt == 4)
     {
         pembagian(a,b);
-        startCalc();
     } else {
         cout << "Yang kamu masukan salah broh!" << endl;
-        startCalc();
     }
     
 }
